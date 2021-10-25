@@ -1,0 +1,532 @@
+/* to CAncel all the styling */
+*{
+    margin: 0;
+
+    text-decoration: none;
+} 
+
+
+
+body{
+    background-color: black;
+}
+
+/* Navigation Bar Styling Start */
+.navbar{
+    width: 100%;
+    background: crimson;
+    font-family: sans-serif;
+    border-radius: 10px 30px 10px 30px;
+    margin-top: 10px;
+    position: fixed;
+    z-index: 999;
+}
+
+.navbar .div1{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+.navbar .div1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+.navbar .div2 a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .items li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .items li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.navbar .div1 ul li:hover{
+    background-color: black;
+    border: solid 5px black;
+    border-radius: 20px;
+}
+
+.navbar .div1 .div2 span{
+    color: black;
+
+}
+/* Nav Bar Styling ends here */
+
+/* Home section starts here */
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    background: url("bg1.png") no-repeat right;
+    height:80vh;
+    color: white;
+    min-height: 500px;
+    font-family: sans-serif;
+}
+
+.intro .div1{
+
+    margin: auto 0 auto 40px;
+}
+
+.intro .div3 .div4{
+    font-size: 28px;
+}
+
+.intro .div3 .div5{
+    font-size: 70px;
+    font-weight: 800;
+}
+
+
+.intro .div3 .div6{
+    font-size: 30px;
+}
+
+.intro .div3 .div6 span{
+    color: crimson;
+}
+
+.intro .div3 .div4 span{
+    color: crimson;
+}
+
+/* Home section ends here */
+
+/* About Me section */ 
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto 0 auto 40px;
+}
+
+.about .title{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.about .title span{
+    color: crimson;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+
+.about .about-content{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about .about-content .left{
+    width: 45%;
+}
+
+
+.about .about-content .right{
+    width: 55%;
+}
+
+
+.about .about-content .right .text{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.about .about-content .right .text span{
+    font-size: 30px;
+    font-weight: 600;
+    color: crimson;
+
+}
+
+
+.about .about-content .right p span{
+
+    color: crimson;
+
+}
+
+
+
+.about .about-content .left img{
+    object-fit: cover;
+    border-radius: 30px;
+    height: 400px;
+    width: 400px;
+
+}
+/* About Me section ends here */
+
+
+/* My Team Section styling start here */
+.team{
+    padding-top: 150px;
+    margin: auto 0 auto 40px;
+  
+}
+
+.team .title{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.team .title span{
+    color: crimson;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.team .members img{
+    height: 150px;
+    width: 150px;
+    border: 5px solid crimson;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+.team .members .style:hover{
+    background-color: rgba(220,20,60,0.4);
+    color: white;
+    border-radius: 10px;
+}
+
+
+.team .members .text{
+    color: crimson;
+    font-size: 22px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+.team .members p{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.members{
+    padding:40px;
+}
+/* My Team Section styling ends here */
+
+
+/* Skills start here*/
+
+.skills{
+    padding-top: 150px;
+    margin: auto 0 auto 40px;
+}
+
+.skills .title{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+
+}
+
+.skills .skills-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skills-content .left{
+    width: 50%;
+    
+}
+
+.skills .skills-content .left .title{
+    font-family: sans-serif;
+    font-size:40px;
+    font-weight: 600;
+    color: crimson;
+}
+
+.skills .skills-content .right{
+    width:50%;
+    
+}
+
+.skills .skills-content .right .title{
+    color:crimson;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.skills .skills-content .right li{
+    margin:20px 0;
+}
+
+.skills .skills-content .right ul li h3{
+    color: white;
+}
+
+.skills .skills-content .right .bar{
+    width: 90%;
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px crimson;
+}
+
+
+.skills .skills-content .right .bar span{
+    height: 20px;
+    float: left;
+    background: steelblue;
+}
+
+.skills .skills-content .right .bar .html{
+    width:5%;
+    transition: width 600ms linear;
+}
+
+.skills .skills-content .right .bar .html:hover{
+    width:90%;
+    background-color: yellowgreen;
+
+}
+
+.skills .skills-content .right .bar .css{
+    width:5%;
+    transition: width 600ms linear;
+
+}
+
+.skills .skills-content .right .bar .css:hover{
+    width:70%;
+    background-color: yellowgreen;
+}
+
+.skills .skills-content .right .bar .java{
+    width:5%;
+    transition: width 600ms linear;
+}
+
+.skills .skills-content .right .bar .java:hover{
+    width:50%;
+    background-color: violet;
+}
+
+.skills .skills-content .right .bar .jquery{
+    width:5%;
+    transition:width 600ms linear;
+}
+
+.skills .skills-content .right .bar .jquery:hover{
+    width:20%;
+    background-color: red;
+}
+
+.skills .skills-content .right .bar .python{
+    width: 5%;
+    transition: width 600ms linear;
+    
+}
+
+.skills .skills-content .right .bar .python:hover{
+    width: 50%;
+    background-color: mediumaquamarine;
+    
+}
+
+/* Skills ends here*/
+
+
+/* Certifications start here */
+.skills .skills-content .left{
+	height:420px;
+    width: 50%;
+	
+    
+}
+
+.skills .skills-content .left img{
+
+    height:350px;
+    width:40%;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+    -webkit-transition: opacity 2s ease-in-out;
+    -ms-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+    
+    
+}
+
+.skills .skills-content .left img.card:hover{
+    
+    opacity: 0;
+}
+
+.skills .skills-content .left img.html:hover{
+    opacity: 0;
+}
+
+/* Certfication ends here */
+
+
+/* CONTACT FORM STYLING START HERE */  
+.contact{
+    padding-top: 180px;
+    margin: auto 0 auto 40px;
+}
+
+
+.contact .title{
+    padding-top: 150px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.contact .title span{
+    padding-top: 150px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: crimson;
+    text-align: center;
+}
+
+
+.contact .contact-content{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+
+.contact .contact-content .left .socialtitle{
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.contact .contact-content .left .socialtitle span{
+    font-weight: 600;
+    font-family: sans-serif;
+    color: crimson;
+}
+
+.contact .contact-content .left{
+    width:20%;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.contact .contact-content .center{
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-left: 40px;
+    width:50%;
+    
+}
+
+.contact .contact-content .center .button1{
+    border: 2px solid crimson;
+    transition:padding 100ms linear 200ms;
+}
+
+.contact .contact-content .center .button1:hover{
+    padding: 5px 5px;
+}
+
+.contact .contact-content .center .button2{
+    border: 2px solid crimson;
+    transition:padding 100ms linear 200ms;
+}
+
+.contact .contact-content .center .button2:hover{
+    padding: 5px 5px;
+}
+
+.contact .contact-content .center .button3{
+    border: 2px solid crimson;
+    transition:padding 100ms linear 200ms;
+}
+
+.contact .contact-content .center .button3:hover{
+    padding: 5px 5px;
+}
+
+.contact .contact-content .center .color{
+    border: 3px solid rgba(0,0,0,0.3);
+    display: block;
+    box-shadow: 0 0 10px white;
+}
+
+.contact .contact-content .right{
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-left: 40px;
+    width:15%;
+    
+}
+
+.contact .contact-content .right .toggle{
+    background-color:silver; 
+    transition:0.3s;
+    height:30px;
+    border-radius:30px;
+    width:80px; 
+    padding:8px;
+
+}
+.contact .contact-content .right .toggle .circle{
+    height:30px;
+    width:30px; 
+    background-color:white; 
+    border-radius:100%; 
+    transition:0.5s;
+}
+
+.contact .contact-content .right .toggle.active{
+    background-color:#906;
+}
+.contact .contact-content .right .toggle.active .circle {
+     margin-left:50px;
+}	
+
+
+footer{
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+
+
